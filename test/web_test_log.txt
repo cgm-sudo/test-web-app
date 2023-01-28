@@ -1,0 +1,63 @@
+START OF TEST for Unit Converter
+--------------- START: Mass to Volume Value Input Test ---------------
+Output: 4442.4, Expected: 4442.4, Remarks: OK!
+Output: 18, Expected: 18, Remarks: OK!
+Output: 0, Expected: 0, Remarks: OK!
+Output: 0.00036, Expected: 0.00036, Remarks: OK!
+Output: 1.8, Expected: 1.8, Remarks: OK!
+Output: 1.4400000000000002e-7, Expected: 1.4400000000000002e-07, Remarks: OK!
+Output: 4988400246, Expected: 4988400246.0, Remarks: OK!
+Output: -27118.800000000003, Expected: -27118.8, Remarks: OK!
+Output: -2.312424, Expected: -2.312424, Remarks: OK!
+Output: -3.6, Expected: -3.6, Remarks: OK!
+--------------- END: Mass to Volume Value Input Test ---------------
+--------------- START: Mass to Volume Select Input Test ---------------
+Output: 3600, Expected: 3600, Remarks: OK!
+Output: 60, Expected: 60, Remarks: OK!
+Output: 1, Expected: 1, Remarks: OK!
+Output: 1632.9312, Expected: 1632.9, Remarks: OK!
+Output: 27.215519999999998, Expected: 27.216, Remarks: OK!
+Output: 0.45359199999999994, Expected: 0.45359, Remarks: OK!
+--------------- END: Mass to Volume Select Input Test ---------------
+--------------- START: Unit Swap Test ---------------
+<<<<< Single Click Action >>>>>
+<<<<< Double Click Action >>>>>
+<<<<< Triple Click Action >>>>>
+--------------- END: Unit Swap Test ---------------
+--------------- START: Volume to Mass Value Input Test ---------------
+Output: 342.77777777777777, Expected: 342.78052, Remarks: OK!
+Output: 1.3888888888888888, Expected: 1.3889, Remarks: OK!
+Output: 0, Expected: 0.0, Remarks: OK!
+Output: 0.00002777777777777778, Expected: 2.7778000000000004e-05, Remarks: OK!
+Output: 0.1388888888888889, Expected: 0.13889, Remarks: OK!
+Output: 1.111111111111111e-8, Expected: 1.1111200000000002e-08, Remarks: OK!
+Output: 384907426.3888889, Expected: 384910505.64830005, Remarks: OK!
+Output: -2092.5, Expected: -2092.51674, Remarks: OK!
+Output: -0.17842777777777777, Expected: -0.17842920520000002, Remarks: OK!
+Output: -0.2777777777777778, Expected: -0.27778, Remarks: OK!
+--------------- END: Volume to Mass Value Input Test ---------------
+--------------- START: Volume to Mass Select Input Test ---------------
+Output: 277.77777777777777, Expected: 277.78, Remarks: OK!
+Output: 1000, Expected: 1000, Remarks: OK!
+Output: 16.666666666666668, Expected: 16.667, Remarks: OK!
+Output: 63.09019659001865, Expected: 63.09, Remarks: OK!
+Output: 7.865786689599268, Expected: 7.8658, Remarks: OK!
+--------------- END: Volume to Mass Select Input Test ---------------
+--------------- START: Density Value Input Test ---------------
+Output: 7.873652476288867, Expected: 7.8736657999999995, Remarks: OK!
+Output: 0.9674917628207099, Expected: 0.9674934, Remarks: OK!
+Output: 0.440484054617559, Expected: 0.44048479999999995, Remarks: OK!
+Output: 7.865786689599268, Expected: 0, Remarks: webix_tooltip webix_global_tooltip 
+Output: 0.09438944027519122, Expected: 0, Remarks: webix_tooltip webix_global_tooltip 
+Output: 78658.13433274013, Expected: 78658.26743719999, Remarks: OK!
+Output: 7.865786689599269e-8, Expected: 7.8658e-08, Remarks: OK!
+Output: 0.003500275076871674, Expected: 0.0035002809999999996, Remarks: OK!
+Output: 0.0015731573379198537, Expected: 0, Remarks: webix_tooltip webix_global_tooltip 
+--------------- END: Density Value Input Test ---------------
+--------------- START: Density Select Input Test ---------------
+Output: 7.865786689599268, Expected: 7.865799999999999, Remarks: OK!
+Output: 7865.786689599268, Expected: 7865.8, Remarks: OK!
+Output: 7.865786689599268, Expected: 7.865799999999999, Remarks: OK!
+Output: 125.99777777777777, Expected: 126.0, Remarks: OK!
+--------------- END: Density Select Input Test ---------------
+END OF TEST for Unit Converter

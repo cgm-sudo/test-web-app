@@ -32,9 +32,9 @@ var mv_input_label = {view:"label", label:"Mass", gravity:3, align:"center", id:
 var mv_output_label = {view:"label", label:"Volume", gravity:3, align:"center", id:"mv_out_label"};
 var mv_density_label = {view:"label", label:"Density", align:"center", id:"mv_density_label"};
 
-var mv_input_field = {id:"mv_inp_field", view:"text", type:"number", value:"1", inputAlign:"left", gravity:3};
-var mv_output_field = {id:"mv_out_field", view:"text", type:"number", value:"", inputAlign:"left", gravity:3};
-var mv_density_field = {id:"mv_density_field", view:"text", type:"number", value:"1000", inputAlign:"left", gravity:3};
+var mv_input_field = {id:"mv_inp_field", view:"text", type:"number", value:"1", inputAlign:"left", gravity:3, validate:webix.rules.isNumber};
+var mv_output_field = {id:"mv_out_field", view:"text", type:"number", value:"", inputAlign:"left", gravity:3, validate:webix.rules.isNumber};
+var mv_density_field = {id:"mv_density_field", view:"text", type:"number", value:"1000", inputAlign:"left", gravity:3, validate:webix.rules.isNumber};
 
 var mv_convert_button = {id:"mv_convert_btn", view:"button", value:"Convert!", css:"webix_primary", width:100, height:50, margin:25};
 
