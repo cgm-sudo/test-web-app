@@ -51,8 +51,6 @@ webix.ui({
     close:true,
     move:true,
     padding:50,
-    //maxHeight:500,
-    //maxWidth:1000,
     body:{rows:[
       {cols:[
       {},
@@ -130,7 +128,18 @@ webix.attachEvent("onClick", function(){
   var output_selected = $$("mv_out_select").data.value;
   var density_selected = $$("mv_density_select").data.value;
   var inp_val = $$("mv_inp_field").getValue();
+
+  //Density data validation
   var density_val = $$("mv_density_field").getValue();
+  if (density_val == 0){
+    webix.message("Density must be greater than zero!");
+    $$("mv_density_field").setValue(1000);
+  } else if (density_val < 0) {
+    webix.message("Density must be greater than zero!");
+    $$("mv_density_field").setValue(Math.abs(density_val));
+  }
+  density_val = $$("mv_density_field").getValue();
+
   var inp_label = $$("mv_inp_label").data.label;
   if (inp_label === "Mass"){
     $$("mv_out_field").setValue(mass2vol(
