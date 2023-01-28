@@ -120,6 +120,9 @@ $$("exchange").attachEvent("onItemClick", function(){
   $$("mv_inp_label").refresh();
   $$("mv_out_label").define("label",temp_label);
   $$("mv_out_label").refresh();
+
+  webix.message(`Changed to default unit! - Input: (${$$("mv_inp_select").data.value})
+                 Output: (${$$("mv_out_select").data.value})`);
 });
 
 webix.attachEvent("onClick", function(){
@@ -129,9 +132,6 @@ webix.attachEvent("onClick", function(){
   var inp_val = $$("mv_inp_field").getValue();
   var density_val = $$("mv_density_field").getValue();
   var inp_label = $$("mv_inp_label").data.label;
-  console.log(inp_label);
-  console.log("input :" + input_selected)
-  console.log("output :" + output_selected)
   if (inp_label === "Mass"){
     $$("mv_out_field").setValue(mass2vol(
       inp_val,
