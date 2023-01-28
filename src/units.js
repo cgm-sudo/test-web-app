@@ -8,16 +8,16 @@ var mass_flow_units = {
     'lb/h':{'id':'lb/h', 'up1':'lb', 'bt1':'h'},
 };
 
-var vol_flow_SI = {'id':'m3/h', 'up1':'m3', 'bt1':'s'};
+var vol_flow_SI = {'id':'m3/s', 'up1':'m3', 'bt1':'s'};
 var vol_flow_units = {
     'm3/s':{'id':'m3/h', 'up1':'m3', 'bt1':'s'},
-    'm3/min':{'id':'m3/h', 'up1':'m3', 'bt1':'min'},
-    'm3/h':{'id':'m3/h', 'up1':'m3', 'bt1':'h'},
-    'ft3/s':{'id':'ft3/h', 'up1':'ft3', 'bt1':'s'},
-    'ft3/min':{'id':'ft3/h', 'up1':'ft3', 'bt1':'min'},
+    'm3/min':{'id':'m3/min', 'up1':'m3', 'bt1':'min'},
+    'm3/h':{'id':'m3/min', 'up1':'m3', 'bt1':'h'},
+    'ft3/s':{'id':'ft3/s', 'up1':'ft3', 'bt1':'s'},
+    'ft3/min':{'id':'ft3/min', 'up1':'ft3', 'bt1':'min'},
     'ft3/h':{'id':'ft3/h', 'up1':'ft3', 'bt1':'h'},
-    'l/s':{'id':'l/h', 'up1':'l', 'bt1':'s'},
-    'l/min':{'id':'l/h', 'up1':'l', 'bt1':'min'},
+    'l/s':{'id':'l/s', 'up1':'l', 'bt1':'s'},
+    'l/min':{'id':'l/min', 'up1':'l', 'bt1':'min'},
     'l/h':{'id':'l/h', 'up1':'l', 'bt1':'h'},
     'usgpm':{'id':'usgpm', 'up1':'gal', 'bt1':'min'}
 };
